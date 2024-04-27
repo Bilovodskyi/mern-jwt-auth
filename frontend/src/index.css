@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-background {
+    background-image: url("../public/index-login-background.svg");
+    height: 100vh;
+    background-color: #202020;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px;
+    color: rgb(147, 147, 147);
+    font-size: 13px;
+}
+
+.button-shadow {
+    box-shadow: rgba(45, 32, 17, 0.12) 0px 1px 1px 0px,
+        rgba(45, 32, 17, 0.2) 0px 1.50259px 3px 0px,
+        rgba(45, 32, 17, 0.2) 0px 4px 8px 0px,
+        rgba(45, 32, 17, 0.3) 0px 12px 24px -6px,
+        rgb(46, 42, 40) 0px -2px 0px 0px inset;
+}
